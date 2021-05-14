@@ -6,10 +6,11 @@ import java.util.List;
 import isi.died.parcial01.ejercicio02.dominio.Alumno;
 import isi.died.parcial01.ejercicio02.dominio.Docente;
 import isi.died.parcial01.ejercicio02.dominio.Materia;
+import isi.died.parcial01.ejercicio02.excepcion.DocenteNoDictaMateria;
 
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws DocenteNoDictaMateria {
 		
 		MySysAcad sistema = new MySysAcadImpl();
 		
