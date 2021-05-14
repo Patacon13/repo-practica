@@ -9,6 +9,8 @@ import isi.died.parcial01.ejercicio01.dominio.*;
 public class App {
 
 	public static void main(String[] args) {
+		//ACLARACION: Clase generada solo para probar el metodo. No pedida en el enunciado
+		
 		EmpleadoEfectivo e1 = new EmpleadoEfectivo(123, "Tomas", LocalDate.of(2020, 03, 24), "tassenza@frsf.utn.edu.ar");
 		EmpleadoJerarquico e2 = new EmpleadoJerarquico(321, "Pedro", LocalDate.of(2020, 03, 10), "pedro@frsf.utn.edu.ar");
 		List<Cobrable> empleados = new ArrayList<>();
